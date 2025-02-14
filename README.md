@@ -1,12 +1,13 @@
 # 👻 Ghost-Tales
 
-**Ghost-Tales** est une application Python conçue pour explorer et analyser les récits de fantômes.
+**Ghost-Tales** est un jeu d'aventure en 2D basé sur le terminal, où les joueurs explorent un manoir hanté, résolvent des énigmes et découvrent des secrets cachés.
 
 ## 🚀 Fonctionnalités
 
-- **Analyse des récits** : Traitement et classification des histoires de fantômes.
-- **Génération de cartes** : Visualisation des lieux hantés sur une carte interactive.
-- **Export de rapports** : Génération de rapports analytiques sur les récits.
+- **Exploration interactive** : Naviguez à travers différentes pièces du manoir en utilisant des commandes textuelles.
+- **Résolution d'énigmes** : Affrontez divers casse-têtes pour progresser dans l'histoire.
+- **Narration immersive** : Plongez dans une histoire captivante avec des descriptions détaillées et une atmosphère riche.
+- **Gestion de l'inventaire** : Collectez et utilisez des objets pour surmonter des obstacles.
 
 ## 🛠️ Installation
 
@@ -17,12 +18,15 @@
    cd Ghost-Tales
    ```
 
-2. **Créer un environnement virtuel** :
+2. **Configurer l'environnement** :
 
-   ```bash
-   python3 -m venv env
-   source env/bin/activate  # Sur Windows, utilisez `env\Scripts\activate`
-   ```
+   - Assurez-vous d'avoir Python 3.x installé sur votre système.
+   - Créez un environnement virtuel (optionnel mais recommandé) :
+
+     ```bash
+     python3 -m venv env
+     source env/bin/activate  # Sur Windows, utilisez `env\Scripts\activate`
+     ```
 
 3. **Installer les dépendances** :
 
@@ -32,21 +36,11 @@
 
 ## 📄 Utilisation
 
-1. **Exécuter le script principal** :
+   **Lancer le jeu** :
 
    ```bash
    python main.py
    ```
-
-   Ce script analyse les récits et affiche les statistiques.
-
-2. **Générer une carte interactive** :
-
-   ```bash
-   python map.py
-   ```
-
-   Génère une carte des lieux hantés en fonction des données collectées.
 
 ## 📂 Structure du projet
 
